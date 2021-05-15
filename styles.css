@@ -1,0 +1,58 @@
+
+dl{
+    font-family: Poppins;
+    text-align: center;
+}
+
+dl dt:first-child h1,dl dd{
+    color:hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+div{
+    background-color: hsl(0, 0%, 98%);
+    width: 300px;
+    height: 200px;
+    margin:30px auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 25px hsl(229, 6%, 66%);
+}
+div:nth-child(1){
+    border-top: solid 5px hsl(180, 62%, 55%) ;
+}
+section div:nth-child(1){
+    border-top: solid 5px hsl(0, 78%, 62%) ;
+}
+section div:nth-child(2){
+    border-top: solid 5px hsl(34, 97%, 64%) ;
+}
+div:nth-child(3){
+    border-top: solid 5px hsl(212, 86%, 64%) ;
+}
+
+div h1,p {
+    margin: 15px 30px;
+}
+img{
+    margin-left: 220px;
+}
+
+@media (min-width: 935px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 120px;
+    }
+    div{
+        margin: 20px auto;
+    }
+    
+}
+
+@media (min-width:930px) {
+    section{
+        display: grid;
+        position: relative;
+        top: -100px;
+
+    }
+}
